@@ -2457,7 +2457,7 @@ class Chipo(Coin):
     TX_PER_BLOCK = 2
     RPC_PORT = 32180
     PEERS = [
-        'electrum.hashexplorer.net'
+        'electrum.chainview.site'
     ]
     SESSIONCLS = DashElectrumX
     DAEMON = daemon.DashDaemon
