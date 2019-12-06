@@ -2455,10 +2455,9 @@ class Chipo(Coin):
     TX_COUNT = 2930206
     TX_COUNT_HEIGHT = 1299212
     TX_PER_BLOCK = 2
-    RPC_PORT = 51473
+    RPC_PORT = 32180
     PEERS = [
-        'electrum1-colx.polispay.org',
-        'electrum2-colx.polispay.org'
+        'electrum.hashexplorer.net'
     ]
     SESSIONCLS = DashElectrumX
     DAEMON = daemon.DashDaemon
