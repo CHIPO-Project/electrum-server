@@ -6,8 +6,10 @@ After=network.target
 EnvironmentFile=/etc/electrumx.conf
 ExecStart=/usr/local/bin/electrumx_server
 User=electrumx
+Group=electrumx
 LimitNOFILE=8192
 TimeoutStopSec=30min
 
 [Install]
 WantedBy=multi-user.target
+
