@@ -2441,7 +2441,7 @@ class Bitg(Coin):
 
 
 class Chipo(Coin):
-    NAME = "CHIPO"
+    NAME = "Chipo"
     SHORTNAME = "ICU"
     NET = "mainnet"
     XPUB_VERBYTES = bytes.fromhex("03E12FA5")
